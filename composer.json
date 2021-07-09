@@ -1,0 +1,38 @@
+{
+    "name": "mglaman/drupal-finalifier",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "nikic/php-parser": "^4.11",
+        "symfony/finder": "^4.4"
+    },
+    "require-dev": {
+        "drupal/core": "^9.2",
+        "drupal/core-dev": "^9.2",
+        "phpunit/phpunit": "^9.5",
+        "drupal/commerce": "^2.25"
+    },
+    "minimum-stability": "rc",
+    "autoload": {
+        "psr-4": {
+            "DrupalStaticFun\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DrupalStaticFun\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt Glaman",
+            "email": "nmd.matt@gmail.com"
+        }
+    ]
+}

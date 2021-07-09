@@ -1,0 +1,8 @@
+[
+    "Drupal\\Core\\Entity\\Routing\\DefaultHtmlRouteProvider",
+    "Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema",
+    "Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema",
+    "Drupal\\Core\\Entity\\Routing\\DefaultHtmlRouteProvider",
+    "Drupal\\Core\\Entity\\Sql\\SqlContentEntityStorageSchema",
+    "Drupal\\Core\\Utility\\Token"
+]
